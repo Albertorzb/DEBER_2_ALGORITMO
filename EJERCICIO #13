@@ -1,0 +1,13 @@
+Algoritmo Divisible_de_5
+	Definir n,x,suma,div Como Entero
+	n=2
+	x=30
+	suma=0
+	Mientras n<=x Hacer
+		n=n+3
+		Si n mod 5=0 Entonces
+			suma=suma+n
+		Fin Si
+	Fin Mientras
+	Escribir "la suma de los divisores para 5 es:"," ",suma
+FinAlgoritmo
